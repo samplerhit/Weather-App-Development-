@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3850f1;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #1ae42e;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #14c758; /* Slightly darker yellow on hover */
+}
+
+.weather-info {
+    text-align: center;
+}
+
+#city-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#weather-description {
+    margin-bottom: 5px;
+}
+
+#temperature {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#humidity, #wind-speed {
+    margin-bottom: 5px;
+}
+
+#weather-icon {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    margin-top: 10px;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center; /* Center the error message */
+}
